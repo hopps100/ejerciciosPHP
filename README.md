@@ -1,1 +1,1 @@
-# Repositorio con los ejercicios de clase PHP
+# Repositorio con los ejercicios de clase php
