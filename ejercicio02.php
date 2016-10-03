@@ -15,7 +15,7 @@ $array1 = array (
     'pivot' => 'Leopoldo',
     'base' => 'Evaristo',
     'escolta' => 'Herbasio' ,
-    'ala pivot' => 'Umberto'
+    'alapivot' => 'Umberto'
 );
 echo "<br>";
 echo "Posicion y nombre <br> <hr>";
