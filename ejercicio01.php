@@ -16,7 +16,6 @@ $array1 = array (
     'edad' => 19 ,
     'nacionalidad' => 'Española'
 );
-
 echo "<br>";
 foreach ($array1 as $position=>$element){
     echo $position . ": " . $element . '<br>';
