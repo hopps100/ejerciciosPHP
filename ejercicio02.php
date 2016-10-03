@@ -9,13 +9,13 @@ Debes crear un array asociativo de  elementos.
 Inicializarlo al declararlo.
 Muestra su contenido de dos maneras, solo los nombres, 
 y posición de jugador mas nombre.*/
-echo " Ejercicio01  <br><br>";
+echo " Ejercicio02  <br><br>";
 $array1 = array (
-    'alero' => 'Aurelio',
-    'pivot' => 'Leopoldo',
-    'base' => 'Evaristo',
-    'escolta' => 'Herbasio' ,
-    'alapivot' => 'Umberto'
+    'Alero' => 'Aurelio',
+    'Pivot' => 'Leopoldo',
+    'Base' => 'Evaristo',
+    'Escolta' => 'Herbasio' ,
+    'Alapivot' => 'Umberto'
 );
 echo "<br>";
 echo "Posicion y nombre <br> <hr>";

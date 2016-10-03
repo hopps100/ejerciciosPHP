@@ -9,7 +9,7 @@ Debes crear un array asociativo de  elementos.
 Inicializarlo al declararlo.
 Muestra su contenido de dos maneras, solo los nombres, 
 y posición de jugador mas nombre.*/
-echo " Ejercicio01  <br><br>";
+echo " Ejercicio03  <br><br>";
 
 $equipo = array(
     'Aleros' => array('Aurelio',
