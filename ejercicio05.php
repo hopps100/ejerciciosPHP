@@ -5,38 +5,37 @@
 </head><body>
 <?php
 
-function ordenar(&$array)
+$array1 = array(10,5, 2, 8, 3,15); 
+$arrayAux = $array1;
+function menor(&$array)
 {
-	$priemero = $array[0];
-	$segundo = $array[0];
-	$flag=0;
-	$cambio=0;
-	$i=0;
-	while ($flag=0){
-		for ($i = 1 ; $i < 6 ; $i++){
-			$cambio=0;
-			$aux=$array[$i];
-			if ($array[$i-1] > $array[$i])  {
-				$array[$i] = $array[$i-1];
-				$array[$i-1]= $aux;
+	$pequeño = $array[0];
+	$comparar = $array[0];
 
-				$cambio=1;
-			} 
-		} 
-		 if ($cambio=0){ $flag=1; }
-	}
+	foreach ($array as $numero=>$comparar){
+		if ($pequeño >= $comparar)  {
+			$pequeño = $comparar;
+		}
+	} 
+	 return $pequeño; 
+} 
+function ordenar($array1)
+{
+	for ($i=0 ; $i < 6; $i++){
+		    $array1 = $arrayAux;
+			$Auxiliar = $array1[0];
+			$menorNum =menor($array1);
+			$array1[0]= $menorNum;
+    }
 } 
 
-
-$array1 = array(10,5, 2, 8, 3,15); 
 foreach ($array1 as $position=>$element){
     echo $position . ": " . $element . '<br>';
 } 
 echo "<hr>";
 ordenar($array1);
 
-
-foreach ($array1 as $position=>$element){
+foreach ($arrayAux as $position=>$element){
     echo $position . ": " . $element . '<br>';
 } 
 ?>
