@@ -4,11 +4,11 @@
         <title>Equipo de baloncesto</title>
 </head><body>
 <?php
-/*Crea un script(ejercicio02.php) 
+echo "Crea un script(ejercicio02.php) 
 Debes crear un array asociativo de  elementos. 
 Inicializarlo al declararlo.
 Muestra su contenido de dos maneras, solo los nombres, 
-y posición de jugador mas nombre.*/
+y posición de jugador mas nombre.";
 echo " Ejercicio03  <br><br>";
 
 $equipo = array(

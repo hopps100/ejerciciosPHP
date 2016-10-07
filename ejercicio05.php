@@ -5,6 +5,8 @@
 </head><body>
 <?php
 
+echo "ejercicio05.php. Paso por referencia. Crea una función que ordene un array de menor a mayor. ";
+
 $array1 = array(10,5, 2, 8, 3,15); 
 $arrayAux = $array1;
 function menor(&$array)
@@ -12,7 +14,7 @@ function menor(&$array)
 	$pequeño = $array[0];
 	$comparar = $array[0];
 
-	foreach ($array as $numero=>$comparar){
+	for ($i=0 ; $i < 6; $i++){
 		if ($pequeño >= $comparar)  {
 			$pequeño = $comparar;
 		}
