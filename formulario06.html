@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html><head>
+        <meta charset="UTF-8">
+        <title>formulario06.php</title>
+</head><body>
+
+    <h2>Nuestro primer formulario</h2>
+    <form method="post" action="ejercicio06.php">
+        <label>Titulo</label><input type="text" value="" name="titulo"><br>
+        <label>Contraseña</label><input type="password" value="" name="contrasena"> <br> 
+
+        Editorial: <br>
+        <input type="checkbox" name="editorial[]" value="anaya"> Anaya <br>
+        <input type="checkbox" name="editorial[]" value="edelvives"> Edelvives <br>     
+        <input type="checkbox" name="editorial[]" value="santillana"> Santillana  <br>      
+
+        Género:  <br>
+        <select name="genero">
+         <optgroup label="Grupo de generos">
+           <option>Acción</option>
+           <option selected>Aventura</option>
+           <option>Fantasia</option>
+         </optgroup>
+        </select> 
+        <input type="submit" value="enviar">   
+        
+    </form>
+</body></html>
