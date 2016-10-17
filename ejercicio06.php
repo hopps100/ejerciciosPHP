@@ -10,7 +10,7 @@
         echo "Recibido!! Mira la URL en tu navegador. Está 'limpia' <hr>";
 
         echo "Bienvenido $_POST[titulo] ";
-        echo "contraseña $_POST[contraseña]";
+        echo "contraseña $_POST[contrasena]";
         //var_dump nos puede ayudar a entender lo que hemos recibido
     }
      else {
